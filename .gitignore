@@ -1,0 +1,6 @@
+secrets.json
+.env
+/node_modules/
+artifacts
+cache
+deployments
