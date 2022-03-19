@@ -57,4 +57,12 @@ contract BookNFT is ERC1155, Ownable {
     function getTotalSupply() public view returns(uint256){
       return _totalSupply;
     }
+
+      function name() public view virtual returns (string memory) {
+      return _name;
+    }
+
+    function symbol() public view virtual returns (string memory) {
+        return _symbol;
+    }
 }
